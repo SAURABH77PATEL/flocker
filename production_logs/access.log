@@ -646,3 +646,13 @@
 [0mGET / [32m200[0m 274.942 ms - 91157[0m
 [0mPOST /posts/create [32m200[0m 30.559 ms - 270[0m
 [0mPOST /comments/create [32m200[0m 39.679 ms - 479[0m
+[0mGET / [32m200[0m 382.481 ms - 93381[0m
+[0mPOST /comments/create [32m200[0m 52.329 ms - 478[0m
+[0mGET / [32m200[0m 218.474 ms - 94110[0m
+[0mPOST /posts/create [32m200[0m 19.699 ms - 269[0m
+[0mPOST /comments/create [32m200[0m 40.684 ms - 480[0m
+[0mPOST /comments/create [32m200[0m 25.253 ms - 480[0m
+[0mPOST /likes/toggle/?id=64140e9b42f4f89cdc8086dd&type=Comment [32m200[0m 22.158 ms - 58[0m
+[0mPOST /comments/create [32m200[0m 23.144 ms - 480[0m
+[0mGET / [32m200[0m 397.547 ms - 97796[0m
+[0mPOST /comments/create [32m200[0m 47.630 ms - 479[0m

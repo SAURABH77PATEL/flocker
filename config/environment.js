@@ -30,7 +30,7 @@ const development = {
     auth: {
      
       user: "singalcn7@gmail.com",
-      pass: "oytbtsotsvvtwzky",
+      pass: "ugnauzhixvlzkxdq",
     },
   },
   google_client_id:
