@@ -15,11 +15,7 @@ const accessLogStream = rfs.createStream("access.log", {
   path: logDirectory,
 });
 
-// const accessLogStream = rfs.createStream('access.log', {
-//     interval: '1hour',
-//     // path: 'logDirectory'
-//     path: 'production_logs'
-// });
+
 
 const development = {
   name: "development",
@@ -32,10 +28,8 @@ const development = {
     port: 587,
     secure: false,
     auth: {
-      // user: 'alchemy.cn18',
-      // pass: 'codingninjas'
+     
       user: "singalcn7@gmail.com",
-      //pass: 'CNISFRAUD'
       pass: "oytbtsotsvvtwzky",
     },
   },
@@ -53,8 +47,6 @@ const development = {
 const production = {
   name: "production",
   asset_path: process.env.FLOCKER_ASSET_PATH,
-  //session_cookies_key : 'BcNWZGh0SUyT2OdXDS23EUt4XCCryc9o',
-  //db:'flocker_production',
   session_cookies_key: process.env.FLOCKER_SESSION_COOKIE_KEY,
   db: process.env.FLOCKER_DB,
   smtp: {
@@ -63,8 +55,6 @@ const production = {
     port: 587,
     secure: false,
     auth: {
-      // user: 'singalcn7@gmail.com',
-      // pass: 'oytbtsotsvvtwzky'
       user: process.env.FLOCKER_GMAIL_USERNAME,
       pass: process.env.FLOCKER_GMAIL_PASSWORD,
     },
@@ -72,7 +62,6 @@ const production = {
   google_client_id: process.env.FLOCKER_GOOGLE_CLIENT_ID,
   google_client_secret: process.env.FLOCKER_GOOGLE_CLIENT_SECRET,
   google_call_back_url: process.env.FLOCKER_GOOGLE_CALLBACK_RURL,
-  // jwt_secret: 'Gr5TgpeGJutyQXvFQukhP2qsJ1QfY8ho',
   jwt_secret: process.env.FLOCKER_JWT_SECRET,
   morgan: {
     mode: "combined",

@@ -643,3 +643,6 @@
 [0mPOST /comments/create [32m200[0m 54.581 ms - 479[0m
 [0mPOST /posts/create [32m200[0m 19.424 ms - 274[0m
 [0mPOST /comments/create [32m200[0m 33.178 ms - 481[0m
+[0mGET / [32m200[0m 274.942 ms - 91157[0m
+[0mPOST /posts/create [32m200[0m 30.559 ms - 270[0m
+[0mPOST /comments/create [32m200[0m 39.679 ms - 479[0m
